@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'nsu.trushkov'
-version = '1.0-SNAPSHOT'
+version = '1.0'
 
 repositories {
     mavenCentral()
@@ -12,7 +12,36 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.2'
+    //implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.2'
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.2'
+
+    implementation 'org.slf4j:slf4j-api:1.7.27'
+    implementation 'ch.qos.logback:logback-core:1.2.3'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+}
+
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'nsu.trushkov.Main'
+        )
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+tasks.withType(Javadoc) {
+    options {
+        encoding = 'UTF-8'
+        charSet = 'UTF-8'
+        links("https://docs.oracle.com/en/java/javase/17/docs/api/")
+    }
 }
 
 test {
