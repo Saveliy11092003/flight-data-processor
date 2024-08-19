@@ -1,6 +1,6 @@
 package nsu.trushkov.writer;
 
-import nsu.trushkov.model.dto.model.InfoForReport;
+import nsu.trushkov.model.InfoForReport;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -38,11 +38,7 @@ public class InfoConsoleWriter implements InfoWriter{
             return duration.toHoursPart() + " ч., " + duration.toMinutesPart() + " мин.";
         }
 
-        if (duration.toHours() == 0) {
-            return duration.toMinutesPart() + " мин.";
-        }
-
-        return duration.toDaysPart() + "д., " + duration.toHoursPart() + "ч., " + duration.toMinutesPart() + " мин.";
+        return duration.toDaysPart() + " д., " + duration.toHoursPart() + " ч., " + duration.toMinutesPart() + " мин.";
     }
 
 }

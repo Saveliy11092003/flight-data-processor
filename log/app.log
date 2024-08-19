@@ -1,7 +1,7 @@
 2024-08-18 20:19:39,991 INFO n.t.Main [main] Application starts
 2024-08-18 20:19:40,260 DEBUG n.t.i.TicketsFileInitializer [main] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
 2024-08-18 20:19:40,288 INFO n.t.Main [main] Initialisation finished
-2024-08-18 20:19:40,293 DEBUG n.t.h.TicketHandler [main] infoForReport - nsu.trushkov.model.dto.model.InfoForReport@17497425
+2024-08-18 20:19:40,293 DEBUG n.t.h.TicketHandler [main] infoForReport - model.nsu.trushkov.model.InfoForReport@17497425
 2024-08-18 20:19:40,293 INFO n.t.Main [main] Info for report generated
 2024-08-18 20:19:40,296 INFO n.t.w.InfoConsoleWriter [main] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
 
@@ -16,7 +16,7 @@ BA - 8 ч., 5 мин.
 2024-08-18 20:29:42,545 INFO n.t.Main [main] Application starts
 2024-08-18 20:29:42,786 DEBUG n.t.i.TicketsFileInitializer [main] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
 2024-08-18 20:29:42,813 INFO n.t.Main [main] Initialisation finished
-2024-08-18 20:29:42,817 DEBUG n.t.h.TicketHandler [main] infoForReport - nsu.trushkov.model.dto.model.InfoForReport@1de76cc7
+2024-08-18 20:29:42,817 DEBUG n.t.h.TicketHandler [main] infoForReport - model.nsu.trushkov.model.InfoForReport@1de76cc7
 2024-08-18 20:29:42,818 INFO n.t.Main [main] Info for report generated
 2024-08-18 20:29:42,821 INFO n.t.w.InfoConsoleWriter [main] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
 
@@ -31,7 +31,7 @@ BA - 8 ч., 5 мин.
 2024-08-18 20:32:45,409 INFO n.t.Main [main] Application starts
 2024-08-18 20:32:45,685 DEBUG n.t.i.TicketsFileInitializer [main] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
 2024-08-18 20:32:45,713 INFO n.t.Main [main] Initialisation finished
-2024-08-18 20:32:45,717 DEBUG n.t.h.TicketHandler [main] infoForReport - nsu.trushkov.model.dto.model.InfoForReport@17497425
+2024-08-18 20:32:45,717 DEBUG n.t.h.TicketHandler [main] infoForReport - model.nsu.trushkov.model.InfoForReport@17497425
 2024-08-18 20:32:45,717 INFO n.t.Main [main] Info for report generated
 2024-08-18 20:32:45,721 INFO n.t.w.InfoConsoleWriter [main] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
 
@@ -48,7 +48,7 @@ BA - 8 ч., 5 мин.
 2024-08-18 20:33:17,731 INFO n.t.Main [main] Application starts
 2024-08-18 20:33:17,992 DEBUG n.t.i.TicketsFileInitializer [main] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
 2024-08-18 20:33:18,020 INFO n.t.Main [main] Initialisation finished
-2024-08-18 20:33:18,024 DEBUG n.t.h.TicketHandler [main] infoForReport - nsu.trushkov.model.dto.model.InfoForReport@1de76cc7
+2024-08-18 20:33:18,024 DEBUG n.t.h.TicketHandler [main] infoForReport - model.nsu.trushkov.model.InfoForReport@1de76cc7
 2024-08-18 20:33:18,024 INFO n.t.Main [main] Info for report generated
 2024-08-18 20:33:18,028 INFO n.t.w.InfoConsoleWriter [main] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
 
@@ -65,7 +65,7 @@ BA - 8 ч., 5 мин.
 2024-08-18 20:46:11,282 INFO n.t.Main [main] Application starts
 2024-08-18 20:46:11,521 DEBUG n.t.i.TicketsFileInitializer [main] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
 2024-08-18 20:46:11,548 INFO n.t.Main [main] Initialisation finished
-2024-08-18 20:46:11,554 DEBUG n.t.h.TicketHandler [main] infoForReport - nsu.trushkov.model.dto.model.InfoForReport@2805d709
+2024-08-18 20:46:11,554 DEBUG n.t.h.TicketHandler [main] infoForReport - model.nsu.trushkov.model.InfoForReport@2805d709
 2024-08-18 20:46:11,554 INFO n.t.Main [main] Info for report generated
 2024-08-18 20:46:11,557 INFO n.t.w.InfoConsoleWriter [main] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
 
@@ -85,7 +85,7 @@ BA - 8 ч., 5 мин.
 2024-08-18 21:56:27,859 INFO n.t.Main [main] Application starts
 2024-08-18 21:56:28,009 DEBUG n.t.i.TicketsFileInitializer [main] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
 2024-08-18 21:56:28,026 INFO n.t.Main [main] Initialisation finished
-2024-08-18 21:56:28,029 DEBUG n.t.h.TicketHandler [main] infoForReport - nsu.trushkov.model.dto.model.InfoForReport@2805d709
+2024-08-18 21:56:28,029 DEBUG n.t.h.TicketHandler [main] infoForReport - model.nsu.trushkov.model.InfoForReport@2805d709
 2024-08-18 21:56:28,029 INFO n.t.Main [main] Info for report generated
 2024-08-18 21:56:28,031 INFO n.t.w.InfoConsoleWriter [main] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
 
@@ -99,3 +99,289 @@ BA - 8 ч., 5 мин.
 Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
 2024-08-18 21:56:28,031 INFO n.t.Main [main] Message sent
 2024-08-18 21:56:28,032 INFO n.t.Main [main] Application finished
+2024-08-18 22:05:25,808 INFO n.t.Main [main] Application starts
+2024-08-18 22:05:25,970 DEBUG n.t.i.TicketsFileInitializer [main] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
+2024-08-18 22:05:25,987 INFO n.t.Main [main] Initialisation finished
+2024-08-18 22:05:25,991 DEBUG n.t.h.TicketHandler [main] infoForReport - nsu.trushkov.model.InfoForReport@31fa1761
+2024-08-18 22:05:25,991 INFO n.t.Main [main] Info for report generated
+2024-08-18 22:05:25,993 INFO n.t.w.InfoConsoleWriter [main] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+SU - 6 ч., 0 мин.
+S7 - 6 ч., 30 мин.
+TK - 5 ч., 50 мин.
+BA - 8 ч., 5 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 460.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-18 22:05:25,993 INFO n.t.Main [main] Message sent
+2024-08-18 22:05:25,993 INFO n.t.Main [main] Application finished
+2024-08-19 17:21:38,399 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@42b02722
+2024-08-19 17:22:16,942 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:23:07,188 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:25:37,567 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:25:57,275 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:28:04,102 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@4077cbae
+2024-08-19 17:28:46,262 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@4077cbae
+2024-08-19 17:30:25,710 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@50d13246
+2024-08-19 17:30:40,297 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@50d13246
+2024-08-19 17:31:10,721 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:35:19,575 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@7fec
+2024-08-19 17:35:26,678 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@7fec
+2024-08-19 17:35:26,705 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:36:49,240 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:36:59,113 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@7fec
+2024-08-19 17:36:59,135 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:39:15,935 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:39:22,490 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@7fec
+2024-08-19 17:39:22,515 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:48:06,755 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@7fec
+2024-08-19 17:48:06,780 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 17:58:12,359 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 17:58:35,076 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 17:58:53,597 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 17:59:25,935 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 17:59:32,775 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:04:06,880 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:04:31,756 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:04:31,765 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 0 ч., 30 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:04:57,230 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:04:57,255 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 0 ч., 30 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:10:16,987 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 1 д., 4ч., 30 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:10:36,808 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 1 д., 4ч., 30 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:11:01,659 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:11:01,687 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 1 д., 4 ч., 30 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:11:27,088 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@7fec
+2024-08-19 18:11:27,116 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 18:11:27,130 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:11:27,135 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 1 д., 4 ч., 30 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:23:44,347 DEBUG n.t.i.TicketsFileInitializer [Test worker] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
+2024-08-19 18:23:49,715 DEBUG n.t.i.TicketsFileInitializer [Test worker] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
+2024-08-19 18:24:03,930 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@7fec
+2024-08-19 18:24:03,966 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 18:24:04,846 DEBUG n.t.i.TicketsFileInitializer [Test worker] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
+2024-08-19 18:24:04,882 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:24:04,889 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 1 д., 4 ч., 30 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:31:29,758 INFO n.t.Main [Test worker] Application starts
+2024-08-19 18:31:30,006 DEBUG n.t.i.TicketsFileInitializer [Test worker] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
+2024-08-19 18:31:30,030 INFO n.t.Main [Test worker] Initialisation finished
+2024-08-19 18:31:30,033 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@dcc1ced9
+2024-08-19 18:31:30,033 INFO n.t.Main [Test worker] Info for report generated
+2024-08-19 18:31:30,037 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+SU - 6 ч., 0 мин.
+S7 - 6 ч., 30 мин.
+TK - 5 ч., 50 мин.
+BA - 8 ч., 5 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 460.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:31:30,039 INFO n.t.Main [Test worker] Message sent
+2024-08-19 18:31:30,040 INFO n.t.Main [Test worker] Application finished
+2024-08-19 18:32:03,245 INFO n.t.Main [Test worker] Application starts
+2024-08-19 18:32:04,064 DEBUG n.t.i.TicketsFileInitializer [Test worker] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
+2024-08-19 18:32:04,084 INFO n.t.Main [Test worker] Initialisation finished
+2024-08-19 18:32:04,087 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@dcc1ced9
+2024-08-19 18:32:04,087 INFO n.t.Main [Test worker] Info for report generated
+2024-08-19 18:32:04,091 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+SU - 6 ч., 0 мин.
+S7 - 6 ч., 30 мин.
+TK - 5 ч., 50 мин.
+BA - 8 ч., 5 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 460.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:32:04,097 INFO n.t.Main [Test worker] Message sent
+2024-08-19 18:32:04,097 INFO n.t.Main [Test worker] Application finished
+2024-08-19 18:32:04,130 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@7fec
+2024-08-19 18:32:04,153 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 18:32:04,170 DEBUG n.t.i.TicketsFileInitializer [Test worker] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
+2024-08-19 18:32:04,184 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:32:04,190 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 1 д., 4 ч., 30 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:33:05,892 INFO n.t.Main [Test worker] Application starts
+2024-08-19 18:33:06,135 DEBUG n.t.i.TicketsFileInitializer [Test worker] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
+2024-08-19 18:33:06,157 INFO n.t.Main [Test worker] Initialisation finished
+2024-08-19 18:33:06,160 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@dcc1ced9
+2024-08-19 18:33:06,160 INFO n.t.Main [Test worker] Info for report generated
+2024-08-19 18:33:06,163 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+SU - 6 ч., 0 мин.
+S7 - 6 ч., 30 мин.
+TK - 5 ч., 50 мин.
+BA - 8 ч., 5 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 460.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:33:06,166 INFO n.t.Main [Test worker] Message sent
+2024-08-19 18:33:06,166 INFO n.t.Main [Test worker] Application finished
+2024-08-19 18:33:06,192 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@7fec
+2024-08-19 18:33:06,197 DEBUG n.t.h.TicketHandler [Test worker] infoForReport - nsu.trushkov.model.InfoForReport@d9a4140c
+2024-08-19 18:33:06,212 DEBUG n.t.i.TicketsFileInitializer [Test worker] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
+2024-08-19 18:33:06,224 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 2 ч., 10 мин.
+TK - 4 ч., 0 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:33:06,229 INFO n.t.w.InfoConsoleWriter [Test worker] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+S7 - 1 д., 4 ч., 30 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 250.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:33:16,991 INFO n.t.Main [main] Application starts
+2024-08-19 18:33:17,232 DEBUG n.t.i.TicketsFileInitializer [main] TicketsDto - TicketsDto[tickets=[TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:20, arrivalDate=2018-05-12, arrivalTime=22:10, carrier=TK, stops=3, price=12400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:20, arrivalDate=2018-05-12, arrivalTime=23:50, carrier=S7, stops=1, price=13100], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=18:10, carrier=SU, stops=0, price=15300], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:00, arrivalDate=2018-05-12, arrivalTime=23:30, carrier=TK, stops=2, price=11000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:10, arrivalDate=2018-05-12, arrivalTime=20:15, carrier=BA, stops=3, price=13400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=09:40, arrivalDate=2018-05-12, arrivalTime=19:25, carrier=SU, stops=3, price=12450], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=17:10, arrivalDate=2018-05-12, arrivalTime=23:45, carrier=TK, stops=1, price=13600], TicketDto[origin=VVO, originName=Владивосток, destination=UFA, destinationName=Уфа, departureDate=2018-05-12, departureTime=15:15, arrivalDate=2018-05-12, arrivalTime=17:45, carrier=TK, stops=1, price=33400], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=15:25, carrier=TK, stops=0, price=14250], TicketDto[origin=LRN, originName=Ларнака, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=12:50, arrivalDate=2018-05-12, arrivalTime=14:30, carrier=SU, stops=1, price=7000], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=16:50, arrivalDate=2018-05-12, arrivalTime=23:35, carrier=SU, stops=1, price=16700], TicketDto[origin=VVO, originName=Владивосток, destination=TLV, destinationName=Тель-Авив, departureDate=2018-05-12, departureTime=06:10, arrivalDate=2018-05-12, arrivalTime=16:15, carrier=S7, stops=0, price=17400]]]
+2024-08-19 18:33:17,259 INFO n.t.Main [main] Initialisation finished
+2024-08-19 18:33:17,264 DEBUG n.t.h.TicketHandler [main] infoForReport - nsu.trushkov.model.InfoForReport@dcc1ced9
+2024-08-19 18:33:17,264 INFO n.t.Main [main] Info for report generated
+2024-08-19 18:33:17,268 INFO n.t.w.InfoConsoleWriter [main] Message - Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:
+
+SU - 6 ч., 0 мин.
+S7 - 6 ч., 30 мин.
+TK - 5 ч., 50 мин.
+BA - 8 ч., 5 мин.
+
+Разница между средней ценой  и медианой для полета между городами Владивосток и Тель-Авив : 460.0
+
+Ссылка на исходный код - https://github.com/Saveliy11092003/flight_data_processor/tree/develop
+2024-08-19 18:33:17,268 INFO n.t.Main [main] Message sent
+2024-08-19 18:33:17,268 INFO n.t.Main [main] Application finished

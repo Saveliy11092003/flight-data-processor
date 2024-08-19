@@ -2,7 +2,7 @@ package nsu.trushkov.handler;
 
 import nsu.trushkov.model.dto.TicketDto;
 import nsu.trushkov.model.dto.TicketsDto;
-import nsu.trushkov.model.dto.model.InfoForReport;
+import nsu.trushkov.model.InfoForReport;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

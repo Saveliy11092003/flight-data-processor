@@ -1,6 +1,6 @@
 package nsu.trushkov.writer;
 
-import nsu.trushkov.model.dto.model.InfoForReport;
+import nsu.trushkov.model.InfoForReport;
 
 
 /**

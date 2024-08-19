@@ -4,7 +4,7 @@ import nsu.trushkov.model.dto.TicketsDto;
 import nsu.trushkov.handler.TicketHandler;
 import nsu.trushkov.initializer.TicketsFileInitializer;
 import nsu.trushkov.initializer.TicketsInitializer;
-import nsu.trushkov.model.dto.model.InfoForReport;
+import nsu.trushkov.model.InfoForReport;
 import nsu.trushkov.writer.InfoConsoleWriter;
 import nsu.trushkov.writer.InfoWriter;
 import org.slf4j.Logger;
