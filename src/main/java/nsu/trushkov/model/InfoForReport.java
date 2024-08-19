@@ -1,12 +1,10 @@
-package nsu.trushkov.model.dto.model;
+package nsu.trushkov.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.Duration;
 import java.util.Map;
+import java.util.Objects;
 
 /**
  * This class contains answers to questions.
@@ -18,7 +16,9 @@ import java.util.Map;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
+@EqualsAndHashCode
 public class InfoForReport {
     private Map<String, Duration> minTimes;
     private Double differenceAverageMedian;
+
 }
